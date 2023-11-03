@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  margin: 50px auto;
+}
+
+form {
+  width: 30%;
+  margin: 0px auto;
+  border: 2px solid #fff;
+  background-color: #fff;
+  padding: 30px;
+  text-align: start;
+  border-radius: 3px;
+}
+
+form h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  color: rgb(244 39 197);
+  font-weight: bold;
+}
+
+.form-group {
+  display: block;
+  margin: 0px 10px;
+}
+
+.form-control {
+  width: 100%;
+  font-size: 16px;
+  line-height: 22px;
+  color: black;
+  border: none;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #d3cff0;
+  background: transparent;
+  font-weight: 700;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #000;
+  -webkit-box-shadow: 0 0 0px 40rem #ffff inset;
+}
+
+.form-control:focus {
+  outline: 0;
+  border-bottom: 2px solid #480f80;
+}
+
+.form-group input::placeholder {
+  color: #d3cff0;
+}
+
+.form-group input::placeholder:focus {
+  color: #000;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.btn input {
+  width: 100%;
+  margin: 0px 0px;
+  padding: 10px 10px;
+  text-align: center;
+  border: none;
+  border-radius: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: rgb(244 39 197);
+}
+
+.users {
+  width: 100%;
+  margin: 50px auto;
+  text-align: center;
+  color: #fff;
+}
+
+table {
+  width: 70%;
+  margin: 0px auto;
+  background-color: #fff;
+}
+
+th {
+  color: rgb(244 39 197) !important;
+}
+
+table,
+tr,
+th,
+td {
+  color: #480f80;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #d3cff0;
+  border-radius: 8px;
+}
+
+table button {
+  margin: 0px 5px;
+  padding: 5px 10px;
+  border: 1px solid #d3cff0;
+  background-color: #fff;
+  color: #480f80;
+  border-radius: 8px;
+}
+
+td img {
+  border-radius: 50%;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Validation Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h1>Contact Us</h1>
+        <div class="form-group">
+          <input
+            type="text"
+            id="photo"
+            name="photo"
+            class="form-control"
+            placeholder="Profile URL"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            class="form-control"
+            placeholder="First Name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            class="form-control"
+            placeholder="Last Name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="email"
+            name="email"
+            class="form-control"
+            placeholder="Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="number"
+            id="phone"
+            name="phone"
+            minlength="10"
+            maxlength="10"
+            class="form-control"
+            placeholder="Phone"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="address"
+            name="address"
+            class="form-control"
+            placeholder="Address"
+            required
+          />
+        </div>
+        <div class="btn">
+          <input type="submit" id="submitBtn" value="submit" />
+        </div>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
